@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Suspendisse pellentesque
-date: 2015-02-06T14:37:44.000Z
-categories: update
+title: Ballwiz
+categories: projects
 ---
 
 <img src="/images/fulls/01.jpg" class="fit image"> another part
