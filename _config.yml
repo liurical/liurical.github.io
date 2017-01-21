@@ -1,12 +1,10 @@
 # Site settings
 
-title: Strata # Title of your site
-email: your-email@domain.com # Your contant email
+title: darrenliu # Title of your site
+email: darren@ballwiz.com # Your contant email
 
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Write something here to describe my site
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
@@ -23,3 +21,8 @@ dribbble_username:    example  # Replace this with your Dribbble username
 
 # Build settings
 markdown: kramdown
+
+collections:
+  projects
+    output: true
+    permalink: /:collection/:path/
