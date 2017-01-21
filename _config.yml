@@ -23,6 +23,6 @@ dribbble_username:    example  # Replace this with your Dribbble username
 markdown: kramdown
 
 collections:
-  projects
+  projects:
     output: true
     permalink: /:collection/:path/
