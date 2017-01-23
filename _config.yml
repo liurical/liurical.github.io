@@ -6,20 +6,15 @@ email: darren@ballwiz.com # Your contant email
 description: > # this means to ignore newlines until "baseurl:"
   Write something here to describe my site
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://liurical.github.io" # the base hostname & protocol for your site
 
 # Social links.
 # Replace the word 'example' with your username if you want to include the icon in the left sidebar
 # Delete the word 'example' if you don't want to include the icon in the left sidebar
 
-github_username:      example  # Replace this with your GitHub username
-linkedin_username:    example  # Replace this with your LinkedIn username
-google_plus_username: example  # Replace this with your Google+ username
+github_username:      liurical  # Replace this with your GitHub username
+linkedin_username:    darrenl  # Replace this with your LinkedIn username
+resume: darren_liu_resume.pdf
 
 # Build settings
 markdown: kramdown
-
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/

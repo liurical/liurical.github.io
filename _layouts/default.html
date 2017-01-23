@@ -28,12 +28,10 @@
           <h1><strong>My name is <a href="/">Darren</a></strong>, I am<br>
           a data science enthusiast, <br>
           a basketball analytics fanboy, <br>
-          and an aficionado of anything data <br>
-          </h1>
-
-          <h3>CV</h3>
-          <a href="/pdfs/darren_liu_resume.pdf"><i class="fa fa-file-text fa-3x" aria-hidden="true"></i></a>
-
+          and an aficionado of anything data. <br>
+          If you wish to know about me, you can find my <strong><a href="/pdfs/darren_liu_resume.pdf">current CV</a></strong> here. <br>
+          Please feel free to <strong><a href="mailto:{{ site.email }}">email</a></strong> me as well. <br>
+          
       </header>
 
         {{ content }}
@@ -42,10 +40,26 @@
         <footer id="footer">
             <ul class="icons">
 
+              {% if site.resume %}
+                <li>
+                  <a href="/pdfs/{{ site.resume }}" class="icon fa-file-text fa-3x">
+                    <span class="label">Resume</span>
+                  </a>
+                </li>
+              {% endif %}
+
               {% if site.github_username %}
               <li>
                 <a href="https://github.com/{{ site.github_username }}" class="icon fa-github fa-3x">
                   <span class="label">GitHub</span>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if site.linkedin_username %}
+              <li>
+                <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin fa-3x">
+                  <span class="label">LinkedIn</span>
                 </a>
               </li>
               {% endif %}
